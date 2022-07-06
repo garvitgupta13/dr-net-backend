@@ -41,6 +41,6 @@
 | **GET**  | /conversationId | getAll messages of conversation|             |  (**Authorization**,patientToken)|
 | **POST** | /conversationId | Add mesage to conversation     | text(string)|  (**Authorization**,patientToken)|
 
-**doctorToken**: token recieved after doctor logs in
+- **doctorToken**: token recieved after doctor logs in
 
-**patientToken**: token recieved after patient logs in
+- **patientToken**: token recieved after patient logs in
