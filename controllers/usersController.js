@@ -105,14 +105,12 @@ const userSignUp = async (userDetails, role, res) => {
     });
   } catch (err) {
     console.log(err);
-    res.status(400).send(err);
+    res.status(401).send(err);
   }
 };
 
 const userSignIn = async (userDetails, role, res) => {
   try {
-    //TODO : Validate req body
-
     // Check if email and password are correct or not
 
     const signInError = validateSignIn(userDetails);
